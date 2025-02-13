@@ -10,7 +10,7 @@ app.use(express.json({ limit: '16MB', extended: true }))
 app.use(helmet())
 app.use(cors({ credentials: true }))
 app.use(cookieParser())
-mongoose.connect("mongodb+srv://thinkinternet2020:FlrUonevplMlfTXx@cluster0.bgydh5k.mongodb.net/ludobattle", {
+mongoose.connect("", {
 })
 
 const { initializeSocket } = require("./controllers/socket.controller")
